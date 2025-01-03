@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the repository from GitHub, explicitly using the 'main' branch
-                git branch: 'main', url: 'https://github.com/MuhammadUbaid237/Devops'
+                git branch: 'main', url: 'https://github.com/MuhammadUbaid237/Devops.git'
             }
         }
         stage('Build') {
